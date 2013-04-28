@@ -8,7 +8,7 @@ use Try::Tiny;
 use namespace::autoclean;
 
 extends 'Catalyst::View';
-our $VERSION = '0.01';
+our $VERSION = '1.00';
 
 has 'haml' => ( is => 'rw', isa => 'Text::Haml' );
 
@@ -154,7 +154,7 @@ __END__
 
 =head1 NAME
 
-Catalyst::View::Haml - Haml View Class
+Catalyst::View::Haml - Haml View Class for Catalyst
 
 =head1 SYNOPSIS
 
